@@ -68,11 +68,11 @@ fun ResultText(result: String, historyList: ArrayList<String>?, modifier: Modifi
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text(text = result, fontWeight = FontWeight.Bold)
+        Text(text = result, fontSize = 17.sp, fontWeight = FontWeight.Bold)
         Text(
             text = "History:", modifier = Modifier
-                .padding(16.dp)
-                .align(Alignment.Start)
+                .padding(5.dp)
+                .align(Alignment.CenterHorizontally)
         )
         HistoryList(historyList)
     }
