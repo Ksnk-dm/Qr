@@ -76,7 +76,7 @@ fun ScanButton(onScanClick: (() -> Unit)?) {
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun ScannerPreview() {
     MyApplicationTheme {
         ResultText(result = "result")
         ScanButton(onScanClick = null)
